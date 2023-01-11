@@ -1,5 +1,6 @@
 Due to the large amount of time to execute the script to find orthologs with the two proteomes, the virtual machine stop working before generating a report, so I made a subset of 16000 lines from each of the FASTA files.
 The file containing Arabidopsis genes is called genes.fa, and the file containing S.pombe's proteins is protein.fa.
+The original proteomes files couldn't be uploaded to github because of their size.
 
 To execute the search_orthologs.rb script: 
 ruby search_orthologs protein genes
