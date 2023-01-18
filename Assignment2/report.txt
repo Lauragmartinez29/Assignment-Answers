@@ -1,0 +1,269 @@
+There are 10 networks.
+
+
+Network 1:
+AT4G09650 - AT4G37260 - AT1G03130
+
+This network is associated with the following GO terms:
+ - GO:0015979 - photosynthesis
+ - GO:0009773 - photosynthetic electron transport in photosystem I
+ - GO:0009772 - photosynthetic electron transport in photosystem II
+ - GO:0015986 - proton motive force-driven AT synthesis
+ - GO:0009409 - response to cold
+ - GO:0035556 - intracellular signal transduction
+ - GO:0019760 - glucosinolate metabolic process
+ - GO:1901001 - negative regulation of response to salt stress
+ - GO:0010929 - positive regulation of auxin mediated signaling pathway
+ - GO:0006355 - regulation of DNA-templated transcription
+ - GO:0006122 - mitochondrial electron transport, ubiquinol to cytochrome c
+
+
+This network is associated with the following KEGG Pathways:
+ - Kegg ID:ath00190 - Oxidative phosphorylation
+ - Kegg ID:ath00195 - Photosynthesis
+ - Kegg ID:ath01100 - Metabolic pathways
+
+
+Network 2:
+AT4G09650 - AT4G37260 - AT4G02770
+
+This network is associated with the following GO terms:
+ - GO:0015979 - photosynthesis
+ - GO:0009773 - photosynthetic electron transport in photosystem I
+ - GO:0009772 - photosynthetic electron transport in photosystem II
+ - GO:0015986 - proton motive force-driven AT synthesis
+ - GO:0009409 - response to cold
+ - GO:0035556 - intracellular signal transduction
+ - GO:0019760 - glucosinolate metabolic process
+ - GO:1901001 - negative regulation of response to salt stress
+ - GO:0010929 - positive regulation of auxin mediated signaling pathway
+ - GO:0006355 - regulation of DNA-templated transcription
+ - GO:0006122 - mitochondrial electron transport, ubiquinol to cytochrome c
+ - GO:0140547 - acquisition of seed longevity
+
+
+This network is associated with the following KEGG Pathways:
+ - Kegg ID:ath00190 - Oxidative phosphorylation
+ - Kegg ID:ath00195 - Photosynthesis
+ - Kegg ID:ath01100 - Metabolic pathways
+
+
+Network 3:
+AT4G09650 - AT4G32570 - AT1G37130
+
+This network is associated with the following GO terms:
+ - GO:0015979 - photosynthesis
+ - GO:0009773 - photosynthetic electron transport in photosystem I
+ - GO:0009772 - photosynthetic electron transport in photosystem II
+ - GO:0015986 - proton motive force-driven AT synthesis
+ - GO:0009409 - response to cold
+ - GO:0035556 - intracellular signal transduction
+ - GO:0031347 - regulation of defense response
+ - GO:2000022 - regulation of jasmonic acid mediated signaling pathway
+ - GO:0009611 - response to wounding
+ - GO:0042128 - nitrate assimilation
+ - GO:0006809 - nitric oxide biosynthetic process
+ - GO:0009635 - response to herbicide
+ - GO:0009416 - response to light stimulus
+ - GO:0009610 - response to symbiotic fungus
+
+
+This network is associated with the following KEGG Pathways:
+ - Kegg ID:ath00190 - Oxidative phosphorylation
+ - Kegg ID:ath00195 - Photosynthesis
+ - Kegg ID:ath01100 - Metabolic pathways
+ - Kegg ID:ath00910 - Nitrogen metabolism
+
+
+Network 4:
+AT1G37130 - AT1G31880 - AT1G14280
+
+This network is associated with the following GO terms:
+ - GO:0042128 - nitrate assimilation
+ - GO:0006809 - nitric oxide biosynthetic process
+ - GO:0009635 - response to herbicide
+ - GO:0009416 - response to light stimulus
+ - GO:0009610 - response to symbiotic fungus
+ - GO:0010315 - auxin export across the plasma membrane
+ - GO:0009734 - auxin-activated signaling pathway
+ - GO:0030154 - cell differentiation
+ - GO:0009736 - cytokinin-activated signaling pathway
+ - GO:0048527 - lateral root development
+ - GO:0010078 - maintenance of root meristem identity
+ - GO:0010088 - phloem development
+ - GO:2000280 - regulation of root development
+ - GO:0009737 - response to abscisic acid
+ - GO:0048364 - root development
+ - GO:0048756 - sieve cell differentiation
+ - GO:0048366 - leaf development
+ - GO:0009638 - phototropism
+ - GO:0009585 - red, far-red light phototransduction
+
+
+This network is associated with the following KEGG Pathways:
+ - Kegg ID:ath00910 - Nitrogen metabolism
+ - Kegg ID:ath01100 - Metabolic pathways
+
+
+Network 5:
+AT1G37130 - AT1G31880 - AT4G02770
+
+This network is associated with the following GO terms:
+ - GO:0042128 - nitrate assimilation
+ - GO:0006809 - nitric oxide biosynthetic process
+ - GO:0009635 - response to herbicide
+ - GO:0009416 - response to light stimulus
+ - GO:0009610 - response to symbiotic fungus
+ - GO:0010315 - auxin export across the plasma membrane
+ - GO:0009734 - auxin-activated signaling pathway
+ - GO:0030154 - cell differentiation
+ - GO:0009736 - cytokinin-activated signaling pathway
+ - GO:0048527 - lateral root development
+ - GO:0010078 - maintenance of root meristem identity
+ - GO:0010088 - phloem development
+ - GO:2000280 - regulation of root development
+ - GO:0009737 - response to abscisic acid
+ - GO:0048364 - root development
+ - GO:0048756 - sieve cell differentiation
+ - GO:0140547 - acquisition of seed longevity
+ - GO:0015979 - photosynthesis
+
+
+This network is associated with the following KEGG Pathways:
+ - Kegg ID:ath00910 - Nitrogen metabolism
+ - Kegg ID:ath01100 - Metabolic pathways
+ - Kegg ID:ath00195 - Photosynthesis
+
+
+Network 6:
+AT1G37130 - AT1G31880 - AT1G76080
+
+This network is associated with the following GO terms:
+ - GO:0042128 - nitrate assimilation
+ - GO:0006809 - nitric oxide biosynthetic process
+ - GO:0009635 - response to herbicide
+ - GO:0009416 - response to light stimulus
+ - GO:0009610 - response to symbiotic fungus
+ - GO:0010315 - auxin export across the plasma membrane
+ - GO:0009734 - auxin-activated signaling pathway
+ - GO:0030154 - cell differentiation
+ - GO:0009736 - cytokinin-activated signaling pathway
+ - GO:0048527 - lateral root development
+ - GO:0010078 - maintenance of root meristem identity
+ - GO:0010088 - phloem development
+ - GO:2000280 - regulation of root development
+ - GO:0009737 - response to abscisic acid
+ - GO:0048364 - root development
+ - GO:0048756 - sieve cell differentiation
+ - GO:0045454 - cell redox homeostasis
+ - GO:0042742 - defense response to bacterium
+ - GO:0010286 - heat acclimation
+ - GO:0006979 - response to oxidative stress
+ - GO:0009414 - response to water deprivation
+
+
+This network is associated with the following KEGG Pathways:
+ - Kegg ID:ath00910 - Nitrogen metabolism
+ - Kegg ID:ath01100 - Metabolic pathways
+
+
+Network 7:
+AT1G76080 - AT1G31880 - AT1G14280
+
+This network is associated with the following GO terms:
+ - GO:0045454 - cell redox homeostasis
+ - GO:0042742 - defense response to bacterium
+ - GO:0010286 - heat acclimation
+ - GO:0006979 - response to oxidative stress
+ - GO:0009414 - response to water deprivation
+ - GO:0010315 - auxin export across the plasma membrane
+ - GO:0009734 - auxin-activated signaling pathway
+ - GO:0030154 - cell differentiation
+ - GO:0009736 - cytokinin-activated signaling pathway
+ - GO:0048527 - lateral root development
+ - GO:0010078 - maintenance of root meristem identity
+ - GO:0010088 - phloem development
+ - GO:2000280 - regulation of root development
+ - GO:0009737 - response to abscisic acid
+ - GO:0048364 - root development
+ - GO:0048756 - sieve cell differentiation
+ - GO:0048366 - leaf development
+ - GO:0009638 - phototropism
+ - GO:0009585 - red, far-red light phototransduction
+
+
+This network is associated with the following KEGG Pathways:
+
+
+Network 8:
+AT1G76080 - AT1G31880 - AT4G02770
+
+This network is associated with the following GO terms:
+ - GO:0045454 - cell redox homeostasis
+ - GO:0042742 - defense response to bacterium
+ - GO:0010286 - heat acclimation
+ - GO:0006979 - response to oxidative stress
+ - GO:0009414 - response to water deprivation
+ - GO:0010315 - auxin export across the plasma membrane
+ - GO:0009734 - auxin-activated signaling pathway
+ - GO:0030154 - cell differentiation
+ - GO:0009736 - cytokinin-activated signaling pathway
+ - GO:0048527 - lateral root development
+ - GO:0010078 - maintenance of root meristem identity
+ - GO:0010088 - phloem development
+ - GO:2000280 - regulation of root development
+ - GO:0009737 - response to abscisic acid
+ - GO:0048364 - root development
+ - GO:0048756 - sieve cell differentiation
+ - GO:0140547 - acquisition of seed longevity
+ - GO:0015979 - photosynthesis
+
+
+This network is associated with the following KEGG Pathways:
+ - Kegg ID:ath00195 - Photosynthesis
+ - Kegg ID:ath01100 - Metabolic pathways
+
+
+Network 9:
+AT4G02770 - AT4G37260 - AT1G03130
+
+This network is associated with the following GO terms:
+ - GO:0140547 - acquisition of seed longevity
+ - GO:0015979 - photosynthesis
+ - GO:0019760 - glucosinolate metabolic process
+ - GO:1901001 - negative regulation of response to salt stress
+ - GO:0010929 - positive regulation of auxin mediated signaling pathway
+ - GO:0006355 - regulation of DNA-templated transcription
+ - GO:0006122 - mitochondrial electron transport, ubiquinol to cytochrome c
+
+
+This network is associated with the following KEGG Pathways:
+ - Kegg ID:ath00195 - Photosynthesis
+ - Kegg ID:ath01100 - Metabolic pathways
+
+
+Network 10:
+AT4G02770 - AT1G31880 - AT1G14280
+
+This network is associated with the following GO terms:
+ - GO:0140547 - acquisition of seed longevity
+ - GO:0015979 - photosynthesis
+ - GO:0010315 - auxin export across the plasma membrane
+ - GO:0009734 - auxin-activated signaling pathway
+ - GO:0030154 - cell differentiation
+ - GO:0009736 - cytokinin-activated signaling pathway
+ - GO:0048527 - lateral root development
+ - GO:0010078 - maintenance of root meristem identity
+ - GO:0010088 - phloem development
+ - GO:2000280 - regulation of root development
+ - GO:0009737 - response to abscisic acid
+ - GO:0048364 - root development
+ - GO:0048756 - sieve cell differentiation
+ - GO:0048366 - leaf development
+ - GO:0009638 - phototropism
+ - GO:0009585 - red, far-red light phototransduction
+
+
+This network is associated with the following KEGG Pathways:
+ - Kegg ID:ath00195 - Photosynthesis
+ - Kegg ID:ath01100 - Metabolic pathways
