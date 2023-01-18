@@ -1,3 +1,5 @@
+#This is the class that searches for the go and kegg terms related with the genes that appear in the interaction networks.
+
 require 'json'
 require 'rest-client'
 require './InteractionNetwork.rb'
@@ -27,6 +29,7 @@ class Annotations
 
     end
 
+    #This method finds the go terms using togows with a given gene code.
     def self.Annotate_Go(locus_code)
         go_terms = {}
         address = "http://togows.dbcls.jp/entry/uniprot/#{locus_code}/dr.json"
@@ -40,6 +43,7 @@ class Annotations
         return go_terms
     end
 
+    #This method finds the kegg terms using togows with a given gene code.
     def self.Annotate_Kegg(locus_code)
         address = "http://togows.org/entry/kegg-genes/ath:#{locus_code}/pathways.json"
         response = RestClient::Request.execute(method: :get, url: address)
@@ -47,6 +51,7 @@ class Annotations
         return data
     end
 
+    #This method annotates the given given code using the Annotate_Go and Annotate_Kegg methods from this class.
     def self.Annotate_Gene(locus_code)
         go_terms = self.Annotate_Go(locus_code)
         kegg_terms = self.Annotate_Kegg(locus_code)

@@ -1,3 +1,5 @@
+#This class is able to find the interaction gene networks in a txt file.
+
 require 'rest-client'
 require 'set'
 
@@ -23,7 +25,8 @@ class InteractionNetwork
         @all_relations = params.fetch(:all_relations, Hash.new)
     end
 
-    def self.load_table(file)
+    #This method loads the file of gene codes and returns an array with all of them.
+    def self.load_file(file)
         all_locus = []
         File.foreach(file) do |locus_code|
             locus_code = locus_code.strip().upcase()
@@ -32,6 +35,7 @@ class InteractionNetwork
         return all_locus
     end
 
+    #This method takes one gene code, searches in psiquic for interactions, takes the gene codes of the genes that appear with an score and specie filter and introduces them in the @@all_genes hash.
     def self.find_interactions(locus_code)
         interact_with = []
         address = "http://www.ebi.ac.uk/Tools/webservices/psicquic/intact/webservices/current/search/interactor/#{locus_code}"
@@ -49,6 +53,7 @@ class InteractionNetwork
         return @@all_genes["#{locus_code}"]
     end
 
+    #This method uses the find_interactions method to iterate through the network searching for gene interactions.
     def self.Build_network(locus_code, number_of_iterations = 4)
         interactors = InteractionNetwork.find_interactions(locus_code).linked_genes.uniq 
         if interactors.empty? then return end
@@ -66,6 +71,7 @@ class InteractionNetwork
         interactors.each {|each_interactor| self.Build_network(each_interactor, number_of_iterations - 1)}
     end
 
+    #This method checks if the found networks in the obtained hash appear in the file of gene codes and if so, it introduces them in an array and calls the Simplify_list method with it.
     def self.Search_in_networks(locus_code, genes_to_match)
         my_networks = []
         genes_to_match.delete("#{locus_code}")
@@ -89,6 +95,7 @@ class InteractionNetwork
         if unique.any? then unique.each {|each_one| @@all_associated_networks << each_one} end
     end
 
+    #This method is a control to delete the networks that are subsets of other ones, its aim is to simplify the array of networks.
     def self.Simplify_list(my_networks)
         unique = my_networks.uniq
         unique.each() do |network1|
@@ -106,22 +113,27 @@ class InteractionNetwork
         return unique
     end
 
+    #This method allows to access the genes that interact with the gene of the argument.
     def self.find_genes(locus_code)
         return @@all_genes["#{locus_code}"]
     end
 
+    #This method returns a Hash of all InteractionNetwork objects
     def self.all_networks()
         return @@all_networks
     end
 
+    #This method returns a given InteractionNetwork object when asked for an ID
     def self.find_networks(locus_code)
         return @@all_networks["#{locus_code}"]
     end
 
+    #This methodeturns a list of all found associated networks.
     def self.all_associated_networks()
         return self.Simplify_list(@@all_associated_networks)
     end
 
+    #This method writes a txt report with the networks found and their go and kegg terms.
     def self.report(file_argv, interactions_list)
         report = File.open(file_argv, 'w')
         report.puts("There are #{interactions_list.length} networks.\n")
